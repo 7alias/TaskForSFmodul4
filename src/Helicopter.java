@@ -1,9 +1,15 @@
 public class Helicopter {
-
     private int x = 0;
     private int h = 0;
     private String name = "";
     private boolean broken = false;
+
+
+    public void setPosition(int h, int x) {
+        this.h = h;
+        this.x = x;
+
+    }
 
     private int getX() {
         return x;
@@ -34,24 +40,13 @@ public class Helicopter {
     }
 
     public void goDown(int h) {
-
         goUp(-h);
         while (this.h <= 0) {
-
 
             System.out.println("Helicopter " + getName() + " crashed");
             broken = true;
             break;
         }
-
-
-    }
-
-
-    public void setPosition(int h, int x) {
-        this.h = h;
-        this.x = x;
-
     }
 
     void printPosition() {
@@ -62,3 +57,4 @@ public class Helicopter {
         }
     }
 }
+

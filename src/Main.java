@@ -11,16 +11,15 @@ public class Main {
         helicopter1.printPosition();
         helicopter2.printPosition();
 
-helicopter1.goForward(10);
+helicopter1.goBack(10);
 helicopter1.goUp(10);
-helicopter2.goBack(10);
-helicopter2.goDown(10);
-helicopter2.goDown(10);
+helicopter2.goForward(10);
+helicopter2.goDown(30);
+
 
         helicopter1.printPosition();
         helicopter2.printPosition();
 
     }
-
 
 }
