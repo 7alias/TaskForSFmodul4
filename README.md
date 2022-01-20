@@ -21,7 +21,11 @@ Getter должен внутри класса Вертолет изменять 
 Данный текст должна написать программа:
 
 Helicopter Apache at the altitude position: 10 and range: 20
+
 Helicopter Chinook at the altitude position: 20 and range: 30
+
 Helicopter Chinook crashed
+
 Helicopter Apache at the altitude position: 20 and range: 10
+
 Helicopter Chinook is broken.
